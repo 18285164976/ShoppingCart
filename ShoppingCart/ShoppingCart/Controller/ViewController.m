@@ -20,6 +20,7 @@
     [super viewDidLoad];
     self.view = [[ShoppingCartView alloc] initWithFrame:self.view.frame];
     self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor greenColor];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
